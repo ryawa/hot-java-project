@@ -36,7 +36,7 @@ public class Task
     
     public boolean equals(Task other)
     {
-        if(this.task == other.getTask())
+        if(this.task.equals(other.getTask()))
         {
             return true;
         }
